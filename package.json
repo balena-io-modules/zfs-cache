@@ -1,0 +1,31 @@
+{
+  "name": "zfs-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "",
+  "license": "ISC",
+  "ava": {
+    "timeout": "5m",
+    "verbose": true,
+    "serial": true,
+    "failWithoutAssertions": true,
+    "files": [
+      "test/**/*.spec.js"
+    ]
+  },
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "tmp": "^0.1.0"
+  },
+  "devDependencies": {
+    "ava": "^2.2.0"
+  }
+}
